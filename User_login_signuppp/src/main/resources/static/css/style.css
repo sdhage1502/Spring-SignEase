@@ -8,19 +8,20 @@ body {
 }
 
 header {
-   background: linear-gradient(to right, #0B5ED7, #4285F4);
+	
+   background: radial-gradient(ellipse, #0B5ED7, #4285F4);
     color: white;
     padding: 1px ; /* Adjusted padding vertically */
     border-bottom: 2px solid #ddd;
     transition: background 0.3s ease;
+  
 }
 
 header:hover {
     background: linear-gradient(to right, #4285F4, #0B5ED7);
 }
 .header {
-   background: linear-gradient(to right, #0B5ED7, #4285F4);
-    color: white;
+   background: radial-gradient(ellipse, #0B5ED7, #4285F4);
     padding: 6px ; /* Adjusted padding vertically */
     border-bottom: 2px solid #ddd;
     transition: background 0.3s ease;
