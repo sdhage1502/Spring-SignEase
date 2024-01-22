@@ -5,94 +5,120 @@ body {
     box-sizing: border-box;
     text-align: center;
     background-color: #f5f5f5;
+   
+
+    
 }
 
-header {
-	
-   background: radial-gradient(ellipse, #0B5ED7, #4285F4);
-    color: white;
-    padding: 1px ; /* Adjusted padding vertically */
-    border-bottom: 2px solid #ddd;
-    transition: background 0.3s ease;
-  
-}
 
-header:hover {
-    background: linear-gradient(to right, #4285F4, #0B5ED7);
-}
-.header {
-   background: radial-gradient(ellipse, #0B5ED7, #4285F4);
-    padding: 6px ; /* Adjusted padding vertically */
-    border-bottom: 2px solid #ddd;
-    transition: background 0.3s ease;
-}
 
-header:hover {
-    background: linear-gradient(to right, #4285F4, #0B5ED7);
-}
 
-h1 {
-    margin: 0;
-}
+ header {
+            background: radial-gradient(ellipse, #0B5ED7, #4285F4);
+            color: white;
+            padding: 1px; /* Adjusted padding vertically */
+            border-bottom: 2px solid #ddd;
+            transition: background 0.3s ease;
+        }
 
-section {
-    padding: 40px;
-}
+        header:hover {
+            background: linear-gradient(to right, #4285F4, #0B5ED7);
+        }
 
-.feature-container {
-    text-align: left;
-    margin-bottom: 30px;
-}
+        .heading {
+			background: radial-gradient(ellipse, #0B5ED7, #4285F4);
+            font-size: 50px;
+            font-weight: bold;
+            color: whitesmoke; /* Blue color */
+            text-align: center;
+            margin: -15px 0;
+            padding-bottom: 2%;
+        }
 
-.feature-container h3 {
-    color: #333;
-}
+        h2 {
+            margin-top: 0%;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
 
-.feature-container ul {
-    list-style-type: none;
-    padding: 0;
-}
+        section {
+            padding: 40px;
+            text-align: center;
+        }
 
-.feature-container li {
-    margin-bottom: 10px;
-    color: #555;
-}
+        .feature-container {
+			
+			align-items: center;
+            background-color:transparent;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+           
+        }
 
-.button-container {
-    margin-top: 30px;
-}
+        h3 {
+            color: #4285F4;
+           font-weight: bolder;
+             padding-bottom: 10px;
+            margin-bottom: 20px;
+           align-items:stretch;
+           display: flex;
+        }
 
-.button-container a {
-    display: inline-block;
-    padding: 15px 30px;
-   background: linear-gradient(to right, #0B5ED7, #4285F4);
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-.button-container a:hover {
-    background-color: #555;
-}
+    .index-li    {
+			
+margin-top: 5px;
+            color: #34495e;
+            display: flex;
+            align-items: center;
+        }
 
-.social-icons {
-    margin-top: 30px;
-}
+       
 
-.social-icons a {
-    margin: 0 20px;
-    display: inline-block;
-}
+        .button-container {
+            margin-top: 20px;
+        }
 
-.social-icons img {
-    width: 40px;
-    height: 40px;
-    border-radius: 0%;
-    transition: transform 0.3s ease;
-}
+        .button-container a {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(to right, #0B5ED7, #4285F4);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
 
-.social-icons a:hover img {
-    transform: scale(1.2);
+        .button-container a:hover {
+            background-color: #005bb5;
+        }
+
+        .social-icons {
+            margin-top: 30px;
+        }
+
+        .social-icons a {
+            margin: 0 20px;
+            display: inline-block;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons a:hover img {
+            transform: scale(1.2);
+        }
+footer{
+	margin-top:0%;
 }
